@@ -48,7 +48,6 @@
 }
 
 .card:hover {
-
     transform: scale(1.05); /* ホバー時に拡大 */
 }
 
