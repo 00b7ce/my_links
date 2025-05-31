@@ -1,0 +1,70 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    max-width: 800px; /* 最大幅を800pxに設定 */
+    display: flex; /* Flexboxを利用 */
+    align-items: center; /* 縦方向中央揃え */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+    text-decoration: none; /* リンクの下線を消す */
+    color: white; /* テキストの色を設定 */
+}
+
+.card:hover {
+
+    transform: scale(1.05); /* ホバー時に拡大 */
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.link-icon {
+    display: block;
+    margin: 10px 0;
+    width: 50px; /* アイコンの幅 */
+    height: 50px; /* アイコンの高さ */
+    margin-right: 20px; /* アイコンとテキストの間にスペースを作る */
+}
+
+.link-text {
+    color: white; /* テキストの色 */
+    font-size: 1.2em; /* フォントサイズを調整 */
+}
